@@ -5,7 +5,7 @@ Este script implementa uma simulação básica de um sistema bancário, permitin
 Execute o script em um ambiente Python.
 O menu será exibido, apresentando as opções disponíveis:
 
-![Menu](image.png)
+![Menu](images/image.png)
 
 Escolha a opção desejada digitando a letra correspondente e pressionando Enter.
 
@@ -24,7 +24,7 @@ Ao selecionar a opção "Sacar", você poderá retirar dinheiro da sua conta. Si
     - O valor deve ser maior que zero.
 3. Após o saque ser realizado com sucesso, o saldo atual será exibido.
 
-![Menu de Depósito](image-1.png)
+![Menu de Depósito](images/image-1.png)
 
 Observação: Existe um limite de 3 saques diários e um limite por saque de R$ 500.
 
@@ -34,7 +34,7 @@ Ao selecionar a opção "Extrato", você poderá visualizar o histórico de suas
 2. Cada linha do extrato apresentará o tipo de operação (Depósito ou Saque) e o valor correspondente.
 3. O saldo atual da conta será exibido no final.
 
-![Menu Extrato](image-2.png)
+![Menu Extrato](images/image-2.png)
 
 ### Opção "Sair" [q]
 Ao selecionar a opção "Sair", o programa será encerrado.

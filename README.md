@@ -1,5 +1,7 @@
 # Simulação de Sistema Bancário 💰
-Este script implementa uma simulação básica de um sistema bancário, permitindo que o usuário realizem depósitos, saques e consultem o extrato de sua conta.
+Este script implementa uma simulação básica de um sistema bancário, proposta em um desafio de código do bootcamp **_Potência Tech powered by iFood_**, permitindo que o usuário realizem depósitos, saques e consultem o extrato de sua conta.
+
+Esta é a primeira versão do código, que utiliza apenas os fundamentos do python.
 
 ## Como Utilizar
 Execute o script em um ambiente Python.

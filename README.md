@@ -1,7 +1,7 @@
 # Simulação de Sistema Bancário 💰
-Este script implementa uma simulação básica de um sistema bancário, proposta em um desafio de código do bootcamp **_Potência Tech powered by iFood_**, permitindo que o usuário realizem depósitos, saques e consultem o extrato de sua conta.
+Este script implementa uma simulação básica de um sistema bancário, proposta em um desafio de código do bootcamp **_Potência Tech powered by iFood_**, permitindo que o usuário realize depósitos, saques e consulte o extrato da conta.
 
-Esta é a primeira versão do código, que utiliza apenas os fundamentos do python.
+Esta é a primeira versão do código, que utiliza apenas os fundamentos do python, com o foco em ser justamente simples.
 
 ## Como Utilizar
 Execute o script em um ambiente Python.
@@ -12,13 +12,15 @@ O menu será exibido, apresentando as opções disponíveis:
 Escolha a opção desejada digitando a letra correspondente e pressionando Enter.
 
 ### Opção "Depositar" [d]
-Ao selecionar a opção "Depositar", você poderá adicionar fundos à sua conta. Siga as instruções abaixo:
+Ao selecionar a opção "Depositar", você poderá adicionar fundos à conta. Siga as instruções abaixo:
 1. Digite o valor que deseja depositar quando solicitado.
-2. Certifique-se de inserir um valor maior que zero.
-3. Após o depósito ser realizado com sucesso, o saldo atual será exibido.
+2. Certifique-se de inserir um valor maior que zero e que contenha apenas números.
+3. Após o depósito ser realizado, uma mensagem de sucesso e o saldo atual será exibido.
+
+![Menu de Depósito](images/image-1.png)
 
 ### Opção "Sacar" [s]
-Ao selecionar a opção "Sacar", você poderá retirar dinheiro da sua conta. Siga as instruções abaixo:
+Ao selecionar a opção "Sacar", você poderá retirar dinheiro da conta. Siga as instruções abaixo:
 1. Digite o valor que deseja sacar quando solicitado.
 2. Certifique-se de inserir um valor válido, respeitando as seguintes condições:
     - O valor deve ser menor ou igual ao saldo disponível em sua conta.
@@ -26,12 +28,12 @@ Ao selecionar a opção "Sacar", você poderá retirar dinheiro da sua conta. Si
     - O valor deve ser maior que zero.
 3. Após o saque ser realizado com sucesso, o saldo atual será exibido.
 
-![Menu de Depósito](images/image-1.png)
+![Saque](./images/image-3.png)
 
 Observação: Existe um limite de 3 saques diários e um limite por saque de R$ 500.
 
 ### Opção "Extrato" [e]
-Ao selecionar a opção "Extrato", você poderá visualizar o histórico de suas operações e o saldo atual da conta. Siga as instruções abaixo:
+Ao selecionar a opção "Extrato", você poderá visualizar o histórico de operações e o saldo atual da conta. Siga as instruções abaixo:
 1. O extrato será exibido, mostrando todas as operações realizadas.
 2. Cada linha do extrato apresentará o tipo de operação (Depósito ou Saque) e o valor correspondente.
 3. O saldo atual da conta será exibido no final.
